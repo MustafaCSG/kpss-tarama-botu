@@ -1,0 +1,25 @@
+{
+  "name": "kpss-tarama-botu",
+  "version": "1.0.0",
+  "description": "KPSS Tarih çıkmış soru analizi ve AI soru üretimi platformu",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx -y http-server . -p 3000 -a 0.0.0.0 -c-1",
+    "analyze": "node analyze_questions.js",
+    "generate": "node soru_uretici.js",
+    "pdf": "node pdf_to_json.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kpss",
+    "tarih",
+    "soru",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  }
+}

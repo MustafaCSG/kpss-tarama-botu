@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KPSS Tarih çalışma istatistikleri. Konu bazlı performans analizi ve gelişim takibi.">
+  <title>KPSS Tarih — İstatistikler</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <span class="logo">📚</span>
+        <span>KPSS <span class="text-gradient">Tarih</span></span>
+      </a>
+      <ul class="navbar-links">
+        <li><a href="index.html">🏠 Ana Sayfa</a></li>
+        <li><a href="quiz.html">📚 Çıkmış Sorular</a></li>
+        <li><a href="ai_quiz.html" class="nav-link-ai">🤖 AI Özgün Sorular</a></li>
+        <li><a href="wrong_notebook.html" style="color: #f87171;">📖 Yanlış Defterim</a></li>
+        <li><a href="stats.html" class="active">📊 İstatistik</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page">
+    <div class="container">
+      <section class="hero" style="padding: 2rem 0 1.5rem;">
+        <h1>📊 İstatistikler</h1>
+        <p>Çıkmış sorular ve AI sorularındaki performansınızı takip edin.</p>
+      </section>
+
+      <!-- Genel İstatistikler -->
+      <div class="stats-grid" id="general-stats"></div>
+
+      <!-- Konu Bazlı Performans -->
+      <section class="card" style="margin-bottom: 1.5rem;">
+        <div class="section-header">
+          <h2 class="section-title">📚 Konu Bazlı Performans (Çıkmış Sorular)</h2>
+        </div>
+        <div class="chart-container">
+          <div class="bar-chart" id="topic-chart"></div>
+        </div>
+      </section>
+
+      <!-- Doğru/Yanlış Oranı -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+        <section class="card">
+          <div class="section-header">
+            <h2 class="section-title">🎯 Genel Başarı Oranı</h2>
+          </div>
+          <div style="display: flex; justify-content: center; padding: 1.5rem;" id="success-circle-area"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-header">
+            <h2 class="section-title">📅 Haftalık Aktivite</h2>
+          </div>
+          <div style="display: flex; align-items: flex-end; gap: 0.5rem; padding: 1.5rem; height: 180px;" id="weekly-activity"></div>
+        </section>
+      </div>
+
+      <!-- Sınav Türüne Göre -->
+      <section class="card" style="margin-bottom: 1.5rem;">
+        <div class="section-header">
+          <h2 class="section-title">🎯 Sınav Türüne Göre Dağılım</h2>
+        </div>
+        <div class="chart-container">
+          <div class="bar-chart" id="exam-chart"></div>
+        </div>
+      </section>
+
+      <div style="text-align: center; padding: 2rem 0;">
+        <button class="btn btn-ghost btn-sm" onclick="resetAll()" style="color: var(--accent-danger);">
+          🗑️ Tüm İlerlemeyi Sıfırla
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <nav class="mobile-nav">
+    <a href="index.html"><span class="icon">🏠</span><span>Ana Sayfa</span></a>
+    <a href="quiz.html"><span class="icon">📚</span><span>Çıkmış</span></a>
+    <a href="ai_quiz.html"><span class="icon">🤖</span><span>AI Özgün</span></a>
+    <a href="wrong_notebook.html"><span class="icon">📖</span><span>Yanlışlar</span></a>
+    <a href="stats.html" class="active"><span class="icon">📊</span><span>İstatistik</span></a>
+  </nav>
+
+  <script src="js/data.js"></script>
+  <script src="js/stats.js"></script>
+</body>
+</html>

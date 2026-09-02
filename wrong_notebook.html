@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KPSS Tarih Yanlış Sorular Defteri. Hata yaptığınız soruları konu bazlı inceleyin ve tekrar çözün.">
+  <title>KPSS Tarih — 📖 Yanlış Sorular Defterim</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <span class="logo" style="background: linear-gradient(135deg, #ef4444, #f97316);">📖</span>
+        <span>KPSS <span class="text-gradient" style="background: linear-gradient(135deg, #ef4444, #f97316); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Yanlış Defteri</span></span>
+      </a>
+      <ul class="navbar-links">
+        <li><a href="index.html">🏠 Ana Sayfa</a></li>
+        <li><a href="quiz.html">📚 Çıkmış Sorular</a></li>
+        <li><a href="ai_quiz.html" class="nav-link-ai">🤖 AI Özgün Sorular</a></li>
+        <li><a href="wrong_notebook.html" class="active" style="background: rgba(239, 68, 68, 0.15); color: #f87171;">📖 Yanlış Defterim</a></li>
+        <li><a href="stats.html">📊 İstatistik</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="page">
+    <div class="container">
+      <!-- Header Summary Banner -->
+      <div class="card" style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(249, 115, 22, 0.05)); border-color: rgba(239, 68, 68, 0.3); margin-bottom: 1.5rem;">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <h2 style="display: flex; align-items: center; gap: 0.5rem;">
+              <span>📖 Yanlış Sorular Defteri</span>
+            </h2>
+            <p class="text-secondary" style="font-size: 0.95rem; margin-top: 0.25rem;">
+              Çözdüğünüz testlerde hata yaptığınız sorular burada toplanır. Yanlışlarınızı inceleyin veya tekrar çözerek eksiklerinizi kapatın!
+            </p>
+          </div>
+          <div style="display: flex; gap: 0.75rem; align-items: center;">
+            <span class="question-tag" style="background: rgba(239, 68, 68, 0.15); color: #f87171; border-color: rgba(239, 68, 68, 0.3); font-size: 0.9rem; padding: 0.5rem 1rem;" id="badge-wrong-count">
+              ❌ 0 Aktif Yanlış
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Konu Bazlı Yanlış Özet Kartları -->
+      <section style="margin-bottom: 2rem;" id="topic-summary-section">
+        <div class="section-header">
+          <h3 class="section-title">📊 Konulara Göre Hata Analizi</h3>
+        </div>
+        <div id="topic-summary-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;"></div>
+      </section>
+
+      <!-- Yanlış Sorular Listesi -->
+      <div id="wrong-questions-container">
+        <div class="empty-state">
+          <div class="loading-spinner"></div>
+          <p style="margin-top: 1rem;">Yanlış defteriniz yükleniyor...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav">
+    <a href="index.html"><span class="icon">🏠</span><span>Ana Sayfa</span></a>
+    <a href="quiz.html"><span class="icon">📚</span><span>Çıkmış</span></a>
+    <a href="ai_quiz.html"><span class="icon">🤖</span><span>AI Özgün</span></a>
+    <a href="wrong_notebook.html" class="active"><span class="icon">📖</span><span>Yanlışlar</span></a>
+    <a href="stats.html"><span class="icon">📊</span><span>İstatistik</span></a>
+  </nav>
+
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/wrong_notebook.js"></script>
+</body>
+</html>

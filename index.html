@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KPSS Tarih çıkmış soru bankası, AI üretimi özgün sorular ve Zor Soru Avcısı ile sınava hazırlanın.">
+  <title>KPSS Tarih Tarama Botu — Ana Sayfa</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <span class="logo">📚</span>
+        <span>KPSS <span class="text-gradient">Tarih</span></span>
+      </a>
+      <ul class="navbar-links">
+        <li><a href="index.html" class="active">🏠 Ana Sayfa</a></li>
+        <li><a href="quiz.html">📚 Çıkmış Sorular</a></li>
+        <li><a href="ai_quiz.html" class="nav-link-ai">🤖 AI Özgün Sorular</a></li>
+        <li><a href="hard_quiz.html" style="color: #f87171;">🎯 Zor Soru Avcısı</a></li>
+        <li><a href="wrong_notebook.html" style="color: #f87171;">📖 Yanlış Defterim</a></li>
+        <li><a href="stats.html">📊 İstatistik</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="page">
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>KPSS Tarih <span class="text-gradient">Soru Portalı</span></h1>
+        <p>1.348 Gerçek ÖSYM çıkmış sorusu, 201 AI özgün sorusu ve AI Kalite Kontrol onaylı 🎯 Zor Soru Avcısı ile sınava hazırlanın.</p>
+        <div class="hero-actions">
+          <a href="quiz.html" class="btn btn-primary btn-lg" id="btn-start-quiz">
+            📚 Çıkmış Soruları Çöz (1.348)
+          </a>
+          <a href="ai_quiz.html" class="btn btn-ghost btn-lg" id="btn-ai-quiz" style="border-color: rgba(139, 92, 246, 0.4);">
+            🤖 AI Özgün Testleri Çöz (201)
+          </a>
+          <a href="hard_quiz.html" class="btn btn-ghost btn-lg" style="border-color: rgba(239, 68, 68, 0.4); color: #f87171;">
+            🎯 Zor Soru Avcısı
+          </a>
+          <a href="wrong_notebook.html" class="btn btn-ghost btn-lg" style="border-color: rgba(245, 158, 11, 0.4); color: var(--accent-warning);">
+            📖 Yanlış Defterim
+          </a>
+        </div>
+      </section>
+
+      <!-- Stats Overview -->
+      <section class="stats-grid" id="stats-overview"></section>
+
+      <!-- Günlük İlerleme -->
+      <section class="card" style="margin-bottom: 1.5rem;">
+        <div class="section-header">
+          <h2 class="section-title">📅 Günlük İlerleme</h2>
+          <span class="text-muted" id="today-date"></span>
+        </div>
+        <div class="progress-item">
+          <div class="progress-header">
+            <span class="progress-title" id="daily-label">Bugün 0 soru çözüldü</span>
+            <span class="progress-count" id="daily-count">0/10</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="daily-progress" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <!-- Haftalık Mini Grafik -->
+        <div style="display: flex; gap: 0.5rem; margin-top: 1rem; justify-content: space-between;" id="weekly-chart"></div>
+      </section>
+
+      <!-- Mod Seçim Kartları (Ayrıştırılmış Soru Depoları) -->
+      <section style="margin-bottom: 2rem;">
+        <div class="section-header">
+          <h2 class="section-title">📂 Soru Depoları & Modlar</h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
+          <!-- Çıkmış Sorular Modu -->
+          <div class="card" style="background: var(--bg-card); border-color: rgba(99, 102, 241, 0.3);">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">📚</span>
+              <span class="question-tag tag-exam" style="font-size: 0.85rem;">1.348 Soru</span>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">Çıkmış Soru Bankası</h3>
+            <p class="text-secondary" style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+              2007-2025 yılları arası ÖSYM tarafından sorulmuş 1.348 gerçek KPSS ve kurum sınav sorusu.
+            </p>
+            <a href="quiz.html" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              📚 Çıkmış Sorulara Git
+            </a>
+          </div>
+
+          <!-- AI Özgün Sorular Modu -->
+          <div class="card" style="background: var(--bg-card); border-color: rgba(139, 92, 246, 0.4);">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">🤖</span>
+              <span class="question-tag tag-ai" style="font-size: 0.85rem;">201 Özgün Soru</span>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">AI Özgün Soru Deposu</h3>
+            <p class="text-secondary" style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+              Gemini 2.5 Flash tarafından ÖSYM tarzında üretilmiş, çözümlü ve açıklamalı 201 yeni soru.
+            </p>
+            <a href="ai_quiz.html" class="btn btn-primary" style="width: 100%; justify-content: center; background: linear-gradient(135deg, #8b5cf6, #ec4899); border: none;">
+              🤖 AI Özgün Testlere Git
+            </a>
+          </div>
+
+          <!-- Zor Soru Avcısı Modu -->
+          <div class="card" style="background: var(--bg-card); border-color: rgba(239, 68, 68, 0.4);">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">🎯</span>
+              <span class="question-tag" style="background: rgba(239, 68, 68, 0.15); color: #f87171; border-color: rgba(239, 68, 68, 0.3);">🔥 Derece Seviyesi</span>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">Zor Soru Avcısı</h3>
+            <p class="text-secondary" style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+              İnternet ve denemelerden taranan, AI Kalite Kontrol süzgecinden geçmiş üst düzey zor ve çeldiricili sorular.
+            </p>
+            <a href="hard_quiz.html" class="btn btn-primary" style="width: 100%; justify-content: center; background: linear-gradient(135deg, #ef4444, #f59e0b); border: none;">
+              🎯 Zor Soru Avcısına Git
+            </a>
+          </div>
+
+          <!-- Yanlış Sorular Defteri Modu -->
+          <div class="card" style="background: var(--bg-card); border-color: rgba(245, 158, 11, 0.3);">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">📖</span>
+              <span class="question-tag" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24; border-color: rgba(245, 158, 11, 0.3);" id="dashboard-wrong-count">0 Hata</span>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">Yanlış Sorular Defteri</h3>
+            <p class="text-secondary" style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+              Hatalı cevapladığınız soruları inceleyin, çözüm açıklamalarını okuyun ve tekrar çözerek öğrenin.
+            </p>
+            <a href="wrong_notebook.html" class="btn btn-ghost" style="width: 100%; justify-content: center; border-color: rgba(245, 158, 11, 0.4); color: #fbbf24;">
+              📖 Yanlış Defterini Aç
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Konu Bazlı İlerleme -->
+      <section class="card" style="margin-bottom: 1.5rem;">
+        <div class="section-header">
+          <h2 class="section-title">📚 Konu Bazlı İlerleme (Çıkmış Sorular)</h2>
+        </div>
+        <div id="topic-progress"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav">
+    <a href="index.html" class="active"><span class="icon">🏠</span><span>Ana Sayfa</span></a>
+    <a href="quiz.html"><span class="icon">📚</span><span>Çıkmış</span></a>
+    <a href="ai_quiz.html"><span class="icon">🤖</span><span>AI Özgün</span></a>
+    <a href="hard_quiz.html"><span class="icon">🎯</span><span>Zor Soru</span></a>
+    <a href="wrong_notebook.html"><span class="icon">📖</span><span>Yanlışlar</span></a>
+    <a href="stats.html"><span class="icon">📊</span><span>İstatistik</span></a>
+  </nav>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

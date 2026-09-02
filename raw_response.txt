@@ -1,0 +1,142 @@
+[
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2025,
+    "sinav": "MEB AGS",
+    "soru_koku": "Çinliler, Doğu Kök Türk Hakanlığı topraklarını himaye altına aldıktan sonra İşbara Kağan'a; Türklerin Çince konuşması, Çinliler gibi giyinmesi, Çin adetlerini kabul etmesi için baskı yapmaya başladı. Bunun üzerine İşbara Kağan, Çin imparatoruna gönderdiği mektupta şu ifadelere yer verdi: \"Size bağlı kalacak, haraç verecek, kıymetli atlar hediye edeceğim. Fakat dilimizi değiştiremem, uzun saçlarımızı kestiremem, halkıma Çin elbiseleri giydiremem. Âdetlerimizi, kanunlarımızı almama imkân yoktur.\" Buna göre İşbara Kağan ile ilgili: I. Çinliler ile uzlaşma yolları aradığı, II. Hüküm sürdüğü bölgenin dışına çıkmak istediği, III. Millî benliklerini korumayı amaçladığı çıkarımlarından hangilerine ulaşılabi lir?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "dogru_cevap": "D"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2025,
+    "sinav": "MSÜ",
+    "soru_koku": "Orhun Yazıtları'nda Kök Türkler ile ilgili \"... Dört bucak hep düşma imiş. Ordular sevk ederek dört bucaktaki halkları hep almış, hep kendilerine bağımlı kılmışlar. Başlıları ve baş eğdirmiş, dizlilere diz çöktürmüşler. Doğuda Kırgızan Dağları'na kadar batıda Demir Kapı'ya kadar (halklarını) düzene koymuşlar. (Bu) iki (sınır) arasında pek örgütsüz (yaşayan) Kök Türkleri düzene sokarak öylece hükmederler imiş.\" sözleri yer almaktadır. Buna göre Kök Türklerle ilgili I. güçlü ve dinamik bir orduya sahip oldukları, II. geniş bir coğrafyada egemenlik kurdukları, III. konargöçer yaşam tarzını terk ettikleri ifadelerinden hangilerine ulaşılabilir?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "C"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2025,
+    "sinav": "MEB-EKYS",
+    "soru_koku": "Bozkırda yaşayan Türklerin, askerî bakımdan çevresindeki topluluklara üstünlük sağlamasında Türk ordularının, yerleşik kavimlerde görülen ağır teçhizatlı piyadelerin aksine hafif ve hareketli süvarilerden oluşması önemli rol oynamıştır. Buna göre İlk Türk topluluklarında süvari birliklerinin önem kazanmasında I. tarımsal faaliyetlerde bulunmaları, II. göçebe yaşam tarzına sahip olmaları, III. atı ehlileştirmeleri gelişmelerinden hangileri etkili olmuştur?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "D"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2025,
+    "sinav": "MEB-YURTDIŞI ÖĞRETMENLİK",
+    "soru_koku": "IV. Asya Hun Devleti'nin yıkılmasından sonra IV. yüzyıl sonlarında Moğolistan'da bir hakanlık kurmuşlardır. Kurdukları bu hakanlık yıkılınca Batı'ya göç etmişler ve Bayan Han zamanında 562 yılında Orta Avrupa'da bir devlet kurmuşlardır. Çinlilerin \"uçan kuan adını verdiği bu Türk topluluğu, Germen ve Slavları askerlik, yönetim ve sanat alanlarında etkilemiştir. Bu parçada hakkında bilgi verilen Türk topluluğu hangisidir?",
+    "secenekler": {
+      "A": "Bulgarlar",
+      "B": "Macarlar",
+      "C": "Sabarlar",
+      "D": "Avarlar",
+      "E": "Kırgızlar"
+    },
+    "dogru_cevap": "D"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2025,
+    "sinav": "MEB-YURTDIŞI ÖĞRETMENLİK",
+    "soru_koku": "İlk Türk Devletleri'nde ikili teşkilat anlayışına göre, ülkenin batı kısmını yöneten hanedan üyesine verilen ünvan hangisidir?",
+    "secenekler": {
+      "A": "Erkin",
+      "B": "Yabgu",
+      "C": "İlteber",
+      "D": "Şanyü",
+      "E": "Şad"
+    },
+    "dogru_cevap": "B"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2024,
+    "sinav": "AYT",
+    "soru_koku": "Kök Türklerde doğudaki kağana bağlı olarak devletin batı kanadının yöneticisi olan İstemi Yabgu \"Atalarımızdan işittik ki Roma İmparatorluğu elçileri geldiği zaman bu bizim için artık yeryüzünü fethedeceğimize delalet eder.\" demiştir. Buna göre Kök Türklerle ilgili I. Bizans'a karşı iktisadi ve ticari üstünlük sağladıkları, II. cihangirşümul bir devlet olma gücüne ulaştıkları, III. devleti ikili yönetim anlayışıyla idare ettikleri çıkarımlarından hangileri yapılabilir?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "E"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2024,
+    "sinav": "AYT",
+    "soru_koku": "Orta Asya'da hakanın çadırında boy beyleri ve hakanın eşinin de bulunduğu bir mecliste, Gök Tengri'nin hakana siyasi ve iktisadi güç bağışladığı anlayışı dile getirilerek devlet ve toplum hayatıyla ilgili konular görüşülmüştür. Hakan, bir sonraki toplantının halkın da katılacağı ve yiyip içeceği bir şölen şeklinde yapılmasına karar vermiştir. Bu parçada İslamiyet öncesi Türklerin devlet yönetimi ve toplumsal yaşayışıyla ilgili aşağıdaki kavramlardan hangisinin karşılığı yoktur?",
+    "secenekler": {
+      "A": "Kurgan",
+      "B": "Kurultay",
+      "C": "Kut",
+      "D": "Otağ",
+      "E": "Hatun"
+    },
+    "dogru_cevap": "A"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2024,
+    "sinav": "TYT",
+    "soru_koku": "Attila, 447 yılında Doğu Roma'nın barış şartlarına uymaması üzerine II. Balkan Seferi'ne çıkmış ve Doğu Roma ile Anatolios Antlaşması'nı imzalamıştır. Bu antlaşmaya göre Doğu Roma, Hunlara savaş tazminatı ödeyecek ve önceden ödediği vergi üç katına çıkarılacak. Hun sınır şehri Niş'te pazar kurulacak ve Doğu Roma'nın asker bulundurabileceği alanlar kısıtlanacaktır. Buna göre I. Antlaşma sonrasında Roma'nın ikiye ayrıldığı, II. Hunların ekonomik açıdan kazanımlar elde ettiği, III. Doğu Roma üzerinde Hunların, üstünlüğünü devam ettirdiği ifadelerinden hangilerine ulaşılabilir?",
+    "secenekler": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "dogru_cevap": "D"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2024,
+    "sinav": "MSÜ",
+    "soru_koku": "Farklı Türk topluluklarına ait bazı özellikler aşağıda sıralanmıştır. I. Manas Destanı'na sahiptirler. II. Malazgirt Savaşı'nda Alp Arslan'ın ordusuna katılmışlardır. III. Emevilerle mücadele etmiş, kendi adlarına para bastırmışlardır. IV. Museviliği benimsemişlerdir. Yukarıda hangi Türk topluluğuyla ilgili bir özellik verilmemiştir?",
+    "secenekler": {
+      "A": "Hazarlar",
+      "B": "Kırgızlar",
+      "C": "Kıpçaklar",
+      "D": "Türgişler",
+      "E": "Peçenekler"
+    },
+    "dogru_cevap": "E"
+  },
+  {
+    "ders": "Tarih",
+    "konu": "İslam Öncesi Türk Tarihi",
+    "yil": 2024,
+    "sinav": "KPSS-GYGK-LİSANS",
+    "soru_koku": "Göktürklerde Mukan Kağan hükümdar olduğu zaman Devlet'in doğu kanadının yönetimini üstlenmiş, batı kanadını ise amcası İstemi Yabgu yönetmeye devam etmiştir. Buna göre Göktürklerle ilgili I. ikili teşkilat

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KPSS Tarih Zor Soru Avcısı. Derece seviyesi üst düzey zor ve çeldiricili sorularla kendinizi sınayın.">
+  <title>KPSS Tarih — 🎯 Zor Soru Avcısı</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <span class="logo" style="background: linear-gradient(135deg, #ef4444, #f59e0b);">🎯</span>
+        <span>KPSS <span class="text-gradient" style="background: linear-gradient(135deg, #ef4444, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Zor Soru Avcısı</span></span>
+      </a>
+      <ul class="navbar-links">
+        <li><a href="index.html">🏠 Ana Sayfa</a></li>
+        <li><a href="quiz.html">📚 Çıkmış Sorular</a></li>
+        <li><a href="ai_quiz.html" class="nav-link-ai">🤖 AI Özgün Sorular</a></li>
+        <li><a href="hard_quiz.html" class="active" style="background: rgba(239, 68, 68, 0.15); color: #f87171;">🎯 Zor Soru Avcısı</a></li>
+        <li><a href="wrong_notebook.html" style="color: #f87171;">📖 Yanlış Defterim</a></li>
+        <li><a href="stats.html">📊 İstatistik</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="page">
+    <div class="container">
+      <!-- Hard Questions Header Banner (Sadece Konu Seçim Ekranında Görünür) -->
+      <div class="card" id="hard-banner" style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.12), rgba(245, 158, 11, 0.08)); border-color: rgba(239, 68, 68, 0.35); margin-bottom: 1.5rem;">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <h2 style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-primary);">
+              <span>🎯 Zor Soru Avcısı (Derece Seviyesi)</span>
+            </h2>
+            <p class="text-secondary" style="font-size: 0.95rem; margin-top: 0.25rem;">
+              Yapay zeka soru avcısı tarafından taranmış, AI Kalite Kontrol süzgecinden geçmiş **en çeldiricili derece seviyesi sorular**.
+            </p>
+          </div>
+          <span class="question-tag" style="background: rgba(239, 68, 68, 0.15); color: #f87171; border-color: rgba(239, 68, 68, 0.3); font-size: 0.9rem; padding: 0.5rem 1rem;">
+            🔥 🔥 🔥 Üst Seviye Test
+          </span>
+        </div>
+      </div>
+
+      <!-- Filter Bar (Sadece Konu Seçim Ekranında Görünür) -->
+      <div class="filter-bar" id="filter-bar">
+        <div class="filter-group">
+          <label class="filter-label">Konu</label>
+          <select class="filter-select" id="filter-konu">
+            <option value="">Tüm Konular</option>
+          </select>
+        </div>
+        <div class="filter-group" style="justify-content: flex-end;">
+          <button class="btn btn-primary btn-sm" id="btn-apply-filter" style="background: linear-gradient(135deg, #ef4444, #f59e0b); border: none; margin-top: auto;">
+            🔍 Filtrele
+          </button>
+        </div>
+      </div>
+
+      <!-- Quiz Area -->
+      <div class="quiz-container" id="quiz-area">
+        <div class="empty-state" id="quiz-loading">
+          <div class="loading-spinner" style="border-top-color: #ef4444;"></div>
+          <p style="margin-top: 1rem;">Derece soruları yükleniyor...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav">
+    <a href="index.html"><span class="icon">🏠</span><span>Ana Sayfa</span></a>
+    <a href="quiz.html"><span class="icon">📚</span><span>Çıkmış</span></a>
+    <a href="ai_quiz.html"><span class="icon">🤖</span><span>AI Özgün</span></a>
+    <a href="hard_quiz.html" class="active"><span class="icon">🎯</span><span>Zor Soru</span></a>
+    <a href="stats.html"><span class="icon">📊</span><span>İstatistik</span></a>
+  </nav>
+
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/hard_quiz.js"></script>
+</body>
+</html>
