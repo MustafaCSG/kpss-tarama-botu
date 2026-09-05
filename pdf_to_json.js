@@ -12,7 +12,7 @@ const fs = require("fs");
 const path = require("path");
 
 // ─── Yapılandırma ──────────────────────────────────────────
-const API_KEY = "AIzaSyCodxevpgdU2zfK0ZRsz8HEpA7lzGEXQdQ";
+const API_KEY = process.env.GEMINI_API_KEY || "";
 const PDF_FILENAME = "974140972-Dizgi-Tarih-Cıkmış-1322-Soru-Video-Cozumlu-1_compressed.pdf";
 const PDF_PATH = path.join(__dirname, PDF_FILENAME);
 const OUTPUT_PATH = path.join(__dirname, "pdf_sorular.json");

@@ -1,11 +1,11 @@
-name: Daily AI Question Generator
+name: Daily ÖSYM AI Question Generator & Auto-Deploy
 
 on:
   schedule:
-    # Her sabah 06:00 UTC (TSİ 09:00) çalışır
+    # Her gün saat 06:00 UTC (TSİ 09:00) otomatik çalışır
     - cron: '0 6 * * *'
   workflow_dispatch:
-    # Manuel çalıştırma butonu
+    # Manuel çalıştırma butonu (GitHub Actions sekmesinden)
 
 jobs:
   generate-questions:
@@ -24,16 +24,24 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install dependencies
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Node dependencies
         run: npm ci
 
-      - name: Generate 100 new AI questions
+      - name: Generate ÖSYM AI questions
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node soru_uretici.js
 
-      - name: Commit and push changes
+      - name: Merge all questions
+        run: python merge_all.py
+
+      - name: Commit and push updated question datasets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 [Automated] Daily AI questions generated"
-          file_pattern: "uretilen_sorular.json"
+          commit_message: "🤖 [Automated] Daily ÖSYM AI questions generated & merged"
+          file_pattern: "uretilen_sorular.json sorular.json"

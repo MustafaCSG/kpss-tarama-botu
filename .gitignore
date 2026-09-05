@@ -2,3 +2,8 @@ node_modules/
 .env
 *.log
 .DS_Store
+key_images/
+temp_*.pdf
+oabt_pages_text.json
+oabt_progress.json
+oabt_node_progress.json

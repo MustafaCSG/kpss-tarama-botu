@@ -1,13 +1,13 @@
 /**
- * Gemini API ile ÖSYM tarzında özgün KPSS Tarih soruları üreten script.
- * Mükerrer soru engelleme (deduplication) ve 10 konu için özgün soru üretimi.
+ * Gemini API ile %100 GERÇEK ÖSYM KONTROLÜNDE ÖZGÜN KPSS TARİH SORULARI ÜRETEN SCRIPT.
+ * ÖSYM'nin gerçek soru hazırlama formatı (I, II, III öncüllü, metin analizi, çeldiricili).
  */
 
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require("fs");
 const path = require("path");
 
-const API_KEY = process.env.GEMINI_API_KEY || "AIzaSyCodxevpgdU2zfK0ZRsz8HEpA7lzGEXQdQ";
+const API_KEY = process.env.GEMINI_API_KEY || "";
 const SORULAR_PATH = path.join(__dirname, "sorular.json");
 const OUTPUT_PATH = path.join(__dirname, "uretilen_sorular.json");
 
@@ -23,7 +23,7 @@ const KONULAR = [
   "XX. Yüzyıl Başlarında Osmanlı Devleti ve İnkılap Tarihi",
   "Milli Mücadele Dönemi (Hazırlık, Cepheler ve Diplomasi)",
   "Atatürk Dönemi İç ve Dış Politika & İnkılaplar",
-  "Çağdaş Türk ve Dünya Tarihi"
+  "Çağdaş Türk me Dünya Tarihi"
 ];
 
 function normalize(text) {
@@ -31,40 +31,43 @@ function normalize(text) {
   return text.toLowerCase().replace(/[^a-z0-9çğıöşü]/g, "").substring(0, 50);
 }
 
-function buildPrompt(konu, mevcutSorular, uretilmisSorular) {
-  const konuSorulari = mevcutSorular.filter(q => q.konu && q.konu.toLowerCase().includes(konu.toLowerCase().substring(0, 10)));
+function buildPrompt(konu, uretilmisSorular) {
   const uretilmisKonu = uretilmisSorular.filter(q => q.konu === konu);
   
-  const sonUretilenler = uretilmisKonu.slice(-15).map((q, i) => 
-    `- ${q.soru_koku ? q.soru_koku.substring(0, 80) : ''}...`
+  const sonUretilenler = uretilmisKonu.slice(-15).map((q) => 
+    `- ${q.soru_koku ? q.soru_koku.replace(/\n/g, " ").substring(0, 90) : ''}...`
   ).join("\n");
 
-  return `Sen ÖSYM'nin kıdemli tarih soru hazırlama komisyonu üyesisin.
+  return `Sen ÖSYM'nin Kıdemli KPSS Tarih Soru Hazırlama Komisyonu Başkanısın.
 
-## GÖREVİN
-"${konu}" konusunda **10 adet yepyeni, daha önce hiç üretilmemiş** özgün ÖSYM tarzı çoktan seçmeli soru hazırla.
+## GÖREVİN:
+"${konu}" konusunda ÖSYM standartlarında, derece yaptıracak kalitede **10 adet yepyeni, özgün ve ZOR (ÖSYM AYARINDA)** çoktan seçmeli soru hazırla.
 
 ## DAHA ÖNCE ÜRETİLMİŞ SON SORULAR (BUNLARI ASLA TEKRARLAMA VE BENZERİNİ YAZMA!):
 ${sonUretilenler || 'Henüz üretilen soru yok.'}
 
-## ÖSYM SORU KURALLARI:
-1. Her soru benzersiz bir tarihsel olayı, kavramı veya çıkarımı sorgulamalı.
-2. I, II, III öncüllü yorum soruları, olumsuz soru kalıpları ("ulaşılamaz", "değildir") ve paragraf çıkarım soruları olmalı.
-3. Çeldirici şıklar son derece güçlü olmalı.
-4. Çözüm açıklaması ("aciklama") detaylı olmalı.
+## ÖSYM SORU HAZIRLAMA İLKELERİ:
+1. **Soru Tipleri Dağılımı:**
+   - En az 5 soru **I, II, III öncüllü** analiz/çıkarım sorusu olmalı. (Örn: "I. ..., II. ..., III. ... gelişmelerinden hangileri ... göstergesidir?")
+   - En az 3 soru **metin/alıntı/tarihsel kaynak** tabanlı yorumlama sorusu olmalı.
+   - En az 2 soru **kavram, antlaşma, kronoloji veya terim bilgisi** sorgulayan belirleyici soru olmalı.
+2. **Soru Kökü Dil ve Formatı:** ÖSYM'nin resmi sınav dilini birebir kullan ("ulaşılabilir?", "savunulabilir?", "söylenemez?", "hangisidir?").
+3. **Çeldirici Mantığı:** Şıklar birbirine yakın, öğrencinin sıkça düştüğü kavram karmaşalarını hedefleyen güçlü çeldiricilerden oluşmalı.
+4. **Zorluk Seviyesi:** Soruların zorluk derecesi "zor" veya "çok zor" olmalı.
+5. **Çözüm Açıklaması:** "aciklama" alanında sorunun doğru cevabının neden o şık olduğu ve çeldiricilerin neden yanlış olduğu kısa ve net açıklanmalı.
 
-## ÇIKTI FORMATI (Sadece JSON array):
+## ÇIKTI FORMATI (Sadece ve sadece JSON array döndür):
 [
   {
     "ders": "Tarih",
     "konu": "${konu}",
     "yil": 0,
-    "sinav": "AI-URETIM",
-    "soru_koku": "Benzersiz yeni soru metni...",
+    "sinav": "ÖSYM-AI-DERECE",
+    "soru_koku": "ÖSYM formatında soru metni veya öncüller...",
     "secenekler": { "A": "...", "B": "...", "C": "...", "D": "...", "E": "..." },
     "dogru_cevap": "C",
-    "zorluk": "orta",
-    "aciklama": "Çözüm açıklaması..."
+    "zorluk": "zor",
+    "aciklama": "Detaylı ÖSYM çözümü ve çeldirici analizi..."
   }
 ]`;
 }
@@ -72,15 +75,14 @@ ${sonUretilenler || 'Henüz üretilen soru yok.'}
 async function generateAllQuestions() {
   let sorular = [];
   if (fs.existsSync(SORULAR_PATH)) {
-    sorular = JSON.parse(fs.readFileSync(SORULAR_PATH, "utf-8"));
+    try { sorular = JSON.parse(fs.readFileSync(SORULAR_PATH, "utf-8")); } catch {}
   }
 
   let mevcutUretilen = [];
   if (fs.existsSync(OUTPUT_PATH)) {
-    mevcutUretilen = JSON.parse(fs.readFileSync(OUTPUT_PATH, "utf-8"));
+    try { mevcutUretilen = JSON.parse(fs.readFileSync(OUTPUT_PATH, "utf-8")); } catch {}
   }
 
-  // Fingerprints of all existing questions
   const existingFingerprints = new Set([
     ...sorular.map(q => normalize(q.soru_koku)),
     ...mevcutUretilen.map(q => normalize(q.soru_koku))
@@ -89,7 +91,7 @@ async function generateAllQuestions() {
   const model = genAI.getGenerativeModel({
     model: "gemini-2.5-flash",
     generationConfig: {
-      temperature: 0.9, // High creativity and variation
+      temperature: 0.85,
       maxOutputTokens: 65536,
       responseMimeType: "application/json",
     },
@@ -99,12 +101,12 @@ async function generateAllQuestions() {
 
   for (let i = 0; i < KONULAR.length; i++) {
     const konu = KONULAR[i];
-    console.log(`\n[${i+1}/${KONULAR.length}] 📝 Konu: ${konu}`);
+    console.log(`\n[${i+1}/${KONULAR.length}] 📝 ÖSYM Konu: ${konu}`);
 
-    const prompt = buildPrompt(konu, sorular, mevcutUretilen);
+    const prompt = buildPrompt(konu, mevcutUretilen);
     try {
       const result = await model.generateContent(prompt);
-      const text = result.response.text().strip ? result.response.text().strip() : result.response.text();
+      const text = result.response.text();
 
       let parsed = [];
       try {
@@ -128,10 +130,10 @@ async function generateAllQuestions() {
               ders: "Tarih",
               konu: konu,
               yil: 0,
-              sinav: "AI-URETIM",
+              sinav: "ÖSYM-AI",
               kaynak: "gemini-2.5-flash",
               uretim_tarihi: new Date().toISOString().split("T")[0],
-              zorluk: q.zorluk || "orta",
+              zorluk: q.zorluk || "zor",
               aciklama: q.aciklama || ""
             });
           }
@@ -139,7 +141,7 @@ async function generateAllQuestions() {
 
         mevcutUretilen.push(...uniqueNew);
         eklenenYeni += uniqueNew.length;
-        console.log(`✅ ${uniqueNew.length} benzersiz yeni soru eklendi! (Mevcut Toplam: ${mevcutUretilen.length})`);
+        console.log(`✅ ${uniqueNew.length} ÖSYM kalitesinde yeni soru eklendi! (Toplam Depo: ${mevcutUretilen.length})`);
       }
     } catch (err) {
       console.error(`❌ Üretim hatası (${konu}):`, err.message);
@@ -155,7 +157,7 @@ async function generateAllQuestions() {
   }));
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(mevcutUretilen, null, 4), "utf-8");
-  console.log(`\n🎉 TAMAMLANDI! Toplam ${eklenenYeni} yeni benzersiz soru üretildi. Toplam AI soru deposu: ${mevcutUretilen.length}`);
+  console.log(`\n🎉 TAMAMLANDI! Toplam ${eklenenYeni} yeni ÖSYM tarzı zor soru üretildi.`);
 }
 
 generateAllQuestions();

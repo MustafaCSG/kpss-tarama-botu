@@ -15,6 +15,7 @@ def main():
     existing_path = "sorular.json"
     pdf_path = "pdf_extracted_all.json"
     ai_path = "uretilen_sorular.json"
+    oabt_path = "oabt_extracted_questions.json"
     
     existing = []
     if os.path.exists(existing_path):
@@ -30,12 +31,18 @@ def main():
     if os.path.exists(ai_path):
         with open(ai_path, "r", encoding="utf-8") as f:
             ai_questions = json.load(f)
+
+    oabt_questions = []
+    if os.path.exists(oabt_path):
+        with open(oabt_path, "r", encoding="utf-8") as f:
+            oabt_questions = json.load(f)
             
     print(f"📊 Mevcut çıkmış soru sayısı: {len(existing)}")
     print(f"📄 PDF'den çıkarılan soru sayısı: {len(pdf_questions)}")
+    print(f"🎓 ÖABT'den çıkarılan soru sayısı: {len(oabt_questions)}")
     print(f"🤖 AI üretilen soru sayısı: {len(ai_questions)}")
     
-    # Deduplicate PDF questions against existing questions
+    # Deduplicate PDF and ÖABT questions against existing questions
     existing_fps = set(normalize(q.get("soru_koku", "")) for q in existing)
     
     unique_pdf = []
@@ -44,16 +51,25 @@ def main():
         if fp and len(fp) > 10 and fp not in existing_fps:
             existing_fps.add(fp)
             unique_pdf.append(q)
+
+    unique_oabt = []
+    for q in oabt_questions:
+        fp = normalize(q.get("soru_koku", ""))
+        if fp and len(fp) > 10 and fp not in existing_fps:
+            existing_fps.add(fp)
+            unique_oabt.append(q)
             
     print(f"🆕 PDF'den eklenen yeni benzersiz soru: {len(unique_pdf)}")
+    print(f"🎓 ÖABT'den eklenen yeni benzersiz soru: {len(unique_oabt)}")
     
-    # Merge existing + unique PDF questions
+    # Merge existing + unique PDF questions + unique ÖABT questions
     max_id = max((q.get("id", 0) for q in existing), default=0)
-    for i, q in enumerate(unique_pdf):
+    for i, q in enumerate(unique_pdf + unique_oabt):
         q["id"] = max_id + i + 1
-        q["kaynak"] = "pdf-cikmis"
+        if "kaynak" not in q:
+            q["kaynak"] = "pdf-cikmis"
         
-    merged_cikmis = existing + unique_pdf
+    merged_cikmis = existing + unique_pdf + unique_oabt
     
     with open(existing_path, "w", encoding="utf-8") as f:
         json.dump(merged_cikmis, f, ensure_ascii=False, indent=4)

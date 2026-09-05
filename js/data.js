@@ -132,7 +132,11 @@ const DataManager = {
 
   recordAnswer(globalId, selectedAnswer, correctAnswer) {
     const progress = this.getProgress();
-    const isCorrect = selectedAnswer === correctAnswer;
+    const isCorrect = Boolean(
+      selectedAnswer && 
+      correctAnswer && 
+      selectedAnswer.toString().trim().toUpperCase() === correctAnswer.toString().trim().toUpperCase()
+    );
     const today = new Date().toISOString().split("T")[0];
 
     if (!progress.answers[globalId]) {

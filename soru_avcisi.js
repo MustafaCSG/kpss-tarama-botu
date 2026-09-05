@@ -8,7 +8,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require("fs");
 const path = require("path");
 
-const API_KEY = process.env.GEMINI_API_KEY || "AIzaSyCodxevpgdU2zfK0ZRsz8HEpA7lzGEXQdQ";
+const API_KEY = process.env.GEMINI_API_KEY || "";
 const OUTPUT_PATH = path.join(__dirname, "avlanan_zor_sorular.json");
 
 const genAI = new GoogleGenerativeAI(API_KEY);

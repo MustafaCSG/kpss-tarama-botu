@@ -1,0 +1,835 @@
+[
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "İslamiyet öncesi Orta Asya Türk devletlerinde idarecilik ve devlet yönetimi konusunda tecrübe kazanmak amacıyla, bağlı boy ve oymakların başına gönderilen hakan çocuklarının aldığı unvan aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Yabgu",
+            "B": "Atabey",
+            "C": "Otaçı",
+            "D": "Şad",
+            "E": "İnal"
+        },
+        "dogru_cevap": "D",
+        "aciklama": "İslamiyet öncesi Türk devletlerinde hükümdar çocuklarına tecrübe kazanmaları için boyların başına gönderildiklerinde 'Şad' unvanı verilirdi."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Orta Asya Türk devletleri için ticaret önemli bir gelir kaynağı olmuş, bu devletler bölgeden geçen İpek Yolu’na hâkim olmak için mücadele etmekten kaçınmamışlardır.\n\nİpek Yolu’nun bir kısmına hâkim olmak isteyen Göktürkler, Sasanilerle ittifak yaparak aşağıdaki devletlerden hangisine son vermişlerdir?",
+        "secenekler": {
+            "A": "Uygur",
+            "B": "Karluk",
+            "C": "Akhun",
+            "D": "Hazar",
+            "E": "Sabar"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "I. Göktürk Devleti, İpek Yolu hâkimiyeti için Sasanilerle iş birliği yaparak Akhun (Eftalit) Devleti'ni yıkmıştır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "İslamiyet Öncesi Dönem’de Türklerin Orta Asya’daki varlığına dair ipuçları, çevre uygarlıkların yazılı kaynaklarından da elde edilmektedir.\n\nBuna göre, eski Türkler hakkında aşağıdakilerden hangisinin kaynaklarından yararlanıldığı söylenemez?",
+        "secenekler": {
+            "A": "Mısır",
+            "B": "Çin",
+            "C": "Arap",
+            "D": "Bizans",
+            "E": "İran"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Orta Asya Türk tarihi araştırılırken coğrafi uzaklık nedeniyle Mısır kaynaklarından faydalanılmaz."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Eski Türk yazıtları Türkler için en önemli kültürel miras arasında yer alır.\n\nBu eserleri ilk defa çözerek anlaşılır hâle gelmesini sağlayan Türkolog aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "V.V. Barthold",
+            "B": "Wilhelm Thomsen",
+            "C": "Laszlo Rasonyi",
+            "D": "W. Radloff",
+            "E": "Strahlenberg"
+        },
+        "dogru_cevap": "B",
+        "aciklama": "Orhun Abideleri'ndeki Göktürk alfabesini ilk kez 1893 yılında çözen Danimarkalı dil bilimci Wilhelm Thomsen'dir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Göktürkler Dönemi’ne ait orak, kürek, demir sapan gibi eşyalar bulunmuş ayrıca Yenisey vadilerine kadar uzanan Tötö Kanalı gibi sulama kanallarına ulaşılmıştır.\n\nBu bilgiyle Göktürklerle ilgili olarak aşağıdakilerden hangisine ulaşılabilir?",
+        "secenekler": {
+            "A": "Sosyal ve ekonomik hayat tarzlarının değiştiğine",
+            "B": "Göçebe hayat tarzını sürdürdüklerine",
+            "C": "Bozkır kültüründen etkilendiklerine",
+            "D": "Ülke topraklarının hana ait olduğuna",
+            "E": "Boylar şeklinde teşkilatlandıklarına"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Orak, saban ve sulama kanallarının varlığı tarımsal faaliyet yapıldığını ve sosyal/ekonomik yaşam tarzının değiştiğini gösterir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İlk Türk İslam Devletleri",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "İran-Fars edebiyatının ünlü ismi Firdevsî’nin meşhur eseri Şehname, aşağıdaki Türk hükümdarlarından hangisine sunulmuştur?",
+        "secenekler": {
+            "A": "Karahanlı Hükümdarı Satuk Buğra Han",
+            "B": "Gazneli Sultan Mahmut",
+            "C": "Büyük Selçuklu Sultanı Melikşah",
+            "D": "Gazneli Sultan Mesut",
+            "E": "Karahanlı Hükümdarı Bilge Kül Kadir Han"
+        },
+        "dogru_cevap": "B",
+        "aciklama": "Firdevsî, ünlü destansı eseri Şehname'yi Gazneli Devleti hükümdarı Sultan Mahmut'a sunmuştur."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İlk Türk İslam Devletleri",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "I. Batı İran ve Azerbaycan’ın alınması,\nII. Ani şehrinin fethi,\nIII. Pasinler Savaşı\n\nYukarıdaki olaylardan hangileri, Büyük Selçuklu Devleti hükümdarı Tuğrul Bey Dönemi’nde meydana gelmiştir?",
+        "secenekler": {
+            "A": "Yalnız I",
+            "B": "I ve II",
+            "C": "I ve III",
+            "D": "II ve III",
+            "E": "I, II ve III"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Batı İran/Azerbaycan fetihleri ve 1048 Pasinler Savaşı Tuğrul Bey dönemindeyken, Ani Şehri'nin fethi Sultan Alparslan döneminde gerçekleşmiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Beylikler Dönemi ve Türkiye Selçuklu Devleti",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Anadolu Selçukluları Sultanı II. Kılıçarslan, 1176’da Miryakefalon Savaşı’nda Bizans ordusunu ağır bir yenilgiye uğratmıştır.\n\nAşağıdakilerden hangisi, bu savaşın bir sonucu değildir?",
+        "secenekler": {
+            "A": "Bizans’ın Anadolu’yu Türklerden geri alma ümidi kırılmıştır.",
+            "B": "Bizans savunmaya çekilmiştir.",
+            "C": "Türkler yeni fetihlerde bulunmuştur.",
+            "D": "I. Haçlı Seferi’nden sonra başlayan karışıklık devri sona ermiştir.",
+            "E": "Anadolu’ya daha yoğun bir Türk göçü gerçekleşmiştir."
+        },
+        "dogru_cevap": "D",
+        "aciklama": "I. Haçlı Seferi sonrasındaki fetret ve karışıklık dönemi Miryakefalon öncesinde II. Kılıçarslan'ın ilk yıllarında sona ermiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Beylikler Dönemi ve Türkiye Selçuklu Devleti",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Aşağıdakilerden hangisi, Anadolu Selçuklu Devleti ile Büyük Selçuklu Devleti arasındaki ortak özelliklerden biri değildir?",
+        "secenekler": {
+            "A": "Ülkenin, hanedanın ortak malı kabul edilmesi",
+            "B": "Hükümdarlık alameti olarak hutbe okutmaları",
+            "C": "Şehzadelerin, melik unvanıyla eyaletlerde görev yapması",
+            "D": "Hükümdarlarının Farsça unvanlar alması",
+            "E": "Hassa birliklerinin oluşturulması"
+        },
+        "dogru_cevap": "D",
+        "aciklama": "Keykavus, Keyhüsrev gibi Farsça hükümdarlık unvanları Türkiye Selçuklularında kullanılmış, Büyük Selçuklularda kullanılmamıştır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Osmanlı ordusunda görevli Kapıkulu askerî birlikleri ve görevleriyle ilgili,\n\nI. Bostancı − Saray hizmetlisi\nII. Humbaracı − Bir çeşit topçu sınıfı\nIII. Cebeci − Silah ve mühimmat sorumlusu\nIV. Sipah − Saray mutfağı görevlisi\n\neşleştirmelerinden hangileri yanlıştır?",
+        "secenekler": {
+            "A": "I ve II",
+            "B": "Yalnız II",
+            "C": "Yalnız IV",
+            "D": "II ve III",
+            "E": "I, II ve III"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Sipahiler, Kapıkulu Süvarileri arasında yer alan atlı askerlerdir; saray mutfağı görevlisi değillerdir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Devleti Kuruluş ve Yükselme Dönemleri",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Bin atlı akınlarda çocuklar gibi şendik\nBin atlı o gün dev gibi bir orduyu yendik\nAk tolgalı beylerbeyi haykırdı ilerle!\nBir yaz günü geçtik Tuna’dan kafilelerle.\n\nYahya Kemal Beyatlı’nın bu dörtlüğünde anlatılanların, aşağıdaki hangi padişah döneminde gerçekleştiği söylenebilir?",
+        "secenekler": {
+            "A": "Yıldırım Bayezit",
+            "B": "Kanuni Sultan Süleyman",
+            "C": "Yavuz Sultan Selim",
+            "D": "III. Ahmet",
+            "E": "V. Mehmet"
+        },
+        "dogru_cevap": "B",
+        "aciklama": "Şiirde tasvir edilen Tuna ötesi akınlar ve Mohaç gibi zaferler Kanuni Sultan Süleyman Dönemi'ni simgelemektedir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Osmanlılarda timar sistemi çerçevesinde kullanılan çift veya çiftlik ifadesi ile aşağıdakilerden hangisi kastedilmektedir?",
+        "secenekler": {
+            "A": "Bir çift öküzle bir yılda işlenebilecek arazi",
+            "B": "İki kişinin ortaklaşa kullandığı arazi",
+            "C": "Sadece evli çiftlere verilen arazi",
+            "D": "Tarımsal üretim ile birlikte hayvancılık da yapılan arazi",
+            "E": "İki yıllığına işlenmek üzere verilen arazi"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Osmanlı arazi rejiminde 'çift', bir çift öküz ile bir yılda sürülebilecek büyüklükteki toprağı ifade eder."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Osmanlı Klasik Dönemi’nde yapılan tahrirler; idari, mali ve askerî konuları kapsamaktaydı.\n\nAşağıdakilerden hangisi, tahrirler sonucunda hazırlanan defterler arasında yer almaz?",
+        "secenekler": {
+            "A": "Mufassal",
+            "B": "Cizye",
+            "C": "İcmal",
+            "D": "Şeriye Sicili",
+            "E": "Avarız"
+        },
+        "dogru_cevap": "D",
+        "aciklama": "Şeriye Sicilleri tahrir sonucu değil, kadıların mahkemelerde tuttuğu kararlar ve hukuki kayıtlardan oluşan defterlerdir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "XVII, XVIII ve XIX. Yüzyılda Osmanlı Devleti ve Islahatlar",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "1720-1721 yılları arasında Paris’te görev yapan Osmanlı sefiridir. Sefaretnamesi, bir Osmanlı sefirinin Avrupa’da neler olup bittiğini anlama gayretine yönelik ilk metinler arasında gösterilmektedir. Dönüşünde beraberinde getirdiği bilgiler, daha sonra “Lale Devri” diye anılacak dönemde etkili olmuştur. Özellikle bu dönemde İstanbul’da inşa edilen saraylar, kendisinin Paris’ten getirdiği saray gravürleri ve krokilerine dayanılarak yapılmıştır.\n\nYukarıda hakkında bilgiler verilen Osmanlı sefiri kimdir?",
+        "secenekler": {
+            "A": "Yirmisekiz Çelebi Mehmet Efendi",
+            "B": "Ebubekir Ratip Efendi",
+            "C": "Yusuf Agâh Efendi",
+            "D": "Mehmet Sait Galip Efendi",
+            "E": "Ahmet Rasim Efendi"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Lale Devri'nde Paris'e elçi olarak gönderilen ve Batılılaşma hareketlerinde önemli role sahip sefaretnamenin yazarı Yirmisekiz Çelebi Mehmet Efendi'dir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "XVII, XVIII ve XIX. Yüzyılda Osmanlı Devleti ve Islahatlar",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Aşağıdakilerden hangisi, 1878 Berlin Antlaşması’nın hükümlerinden biri değildir?",
+        "secenekler": {
+            "A": "Bulgaristan’ın, Osmanlı Devleti’ne vergi bağı ile bağlı prenslik hâline gelmesi",
+            "B": "Boğazların güvenliği ve denetiminin, İngiltere ve Fransa tarafından oluşturulan ortak bir komisyon tarafından sağlanması",
+            "C": "Sırbistan, Karadağ ve Romanya’nın bağımsızlıklarını elde etmesi",
+            "D": "Osmanlı Devleti’nin, Kars, Ardahan ve Batum’u Rusya’ya terk etmesi",
+            "E": "Bosna-Hersek’in geçici olarak Avusturya’nın işgal ve idaresine bırakılması"
+        },
+        "dogru_cevap": "B",
+        "aciklama": "Boğazlar için uluslararası bir komisyon kurulması kararı 1878 Berlin Antlaşması'nda değil, 1919-1920 sonrası Sevr ve Lozan süreçlerinde gündeme gelmiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "XX. Yüzyıl Başlarında Osmanlı Devleti ve İnkılap Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "İttihat ve Terakki Cemiyetini, meşrutiyetin yeniden ilanı konusunda harekete geçiren olay aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "V. Murat’ın yeniden tahta çıkarılmak istenmesi",
+            "B": "Balkan sorunu için Tersane Konferansı’nın toplanması",
+            "C": "Selânik Merkez Komutanı Nâzım Bey’in öldürülmesi",
+            "D": "Paris Sözleşmesi’nin imzalanması",
+            "E": "Rus çarının, Reval’de İngiltere kralıyla görüşmesi"
+        },
+        "dogru_cevap": "E",
+        "aciklama": "1908 yılında İngiltere ve Rusya arasında gerçekleşen Reval Görüşmeleri, Osmanlı Devleti'nin parçalanacağı endişesiyle İttihatçıların II. Meşrutiyet'i ilan ettirmesinde hızlandırıcı etki yapmıştır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Milli Mücadele Dönemi (Hazırlık, Cepheler ve Diplomasi)",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Son Osmanlı Mebusan Meclisi seçimlerine katılan Mustafa Kemal, aşağıdaki illerin hangisinden milletvekili seçilmiştir?",
+        "secenekler": {
+            "A": "Sivas",
+            "B": "Selânik",
+            "C": "Erzurum",
+            "D": "İzmir",
+            "E": "Ankara"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Mustafa Kemal Paşa, 1919 yılında yapılan son Osmanlı Mebusan Meclisi seçimlerinde Erzurum milletvekili seçilmiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Milli Mücadele Dönemi (Hazırlık, Cepheler ve Diplomasi)",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Aşağıdakilerden hangisi, I. TBMM’de oluşan siyasal düşünce gruplarından biri değildir?",
+        "secenekler": {
+            "A": "İstiklal Grubu",
+            "B": "Tesanüt Grubu",
+            "C": "Hizb-i Cedit",
+            "D": "Halk Zümresi",
+            "E": "Islahat Grubu"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Hizb-i Cedit, İkinci Meşrutiyet Dönemi'nde İttihat ve Terakki içinde ortaya çıkan bir klik olup I. TBMM gruplarından biri değildir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Milli Mücadele Dönemi (Hazırlık, Cepheler ve Diplomasi)",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Lozan Antlaşması’ndan önce kapitülasyonların kaldırılmasını kabul eden ülke aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Sovyet Rusya",
+            "B": "İngiltere",
+            "C": "Fransa",
+            "D": "İtalya",
+            "E": "Almanya"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "16 Mart 1921'de imzalanan Moskova Antlaşması ile Sovyet Rusya, kapitülasyonların kaldırıldığını kabul eden ilk büyük Avrupalı devlet olmuştur."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Atatürk Dönemi İç ve Dış Politika & İnkılaplar",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Atatürk, “İnsan mensup olduğu milletin varlığını ve saadetini düşündüğü kadar bütün cihan milletlerinin huzur ve refahını düşünmeli ve kendi milletinin saadetine ne kadar kıymet veriyorsa bütün dünya milletinin saadetine hizmet etmeye de elinden geldiği kadar çalışmalıdır.” demiştir.\n\nAtatürk’ün bu ifadesiyle Türkiye’nin,\nI. Kellogg-Briand Paktı’na katılması,\nII. Balkan Antantı’nın oluşumunda etkin rol oynaması,\nIII. Milletler Cemiyetine üye olması\ngelişmelerinden hangileri ilişkilendirilebilir?",
+        "secenekler": {
+            "A": "Yalnız I",
+            "B": "Yalnız II",
+            "C": "I ve II",
+            "D": "II ve III",
+            "E": "I, II ve III"
+        },
+        "dogru_cevap": "E",
+        "aciklama": "Atatürk'ün dünya barışı ve milletlerin ortak refahına vurgu yapan ifadeleri; Kellogg-Briand Paktı, Balkan Antantı ve Milletler Cemiyeti üyeliklerinin tamamı ile doğrudan ilişkilidir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Atatürk Dönemi İç ve Dış Politika & İnkılaplar",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Türkiye İktisat Kongresi’nde ulusal ve tam bağımsız bir ekonomiyi esas alan öneriler ön plana çıkmıştır.\n\nİktisat Kongresi’nde yapılan aşağıdaki önerilerden hangisinin bu doğrultuda olduğu söylenemez?",
+        "secenekler": {
+            "A": "Kambiyo merkezleri ile tahvil borsalarının millîleştirilmesi",
+            "B": "Tarım dışındaki işçiler için günlük çalışma süresinin 8 saat olması",
+            "C": "Yerli sanayiyi koruyucu önlemler alınması",
+            "D": "Kendi limanlarımızda bayrağımızı taşıyan gemilerin ticaret yapması",
+            "E": "Tekel hakkı tanınmış yabancı sermayenin kaldırılması"
+        },
+        "dogru_cevap": "B",
+        "aciklama": "İşçilerin günlük çalışma süresinin 8 saat olarak düzenlenmesi sosyal ve çalışma hayatına ilişkin bir düzenleme olup doğrudan millî bağımsız ekonomi ilkesiyle ilgili değildir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Atatürk Dönemi İç ve Dış Politika & İnkılaplar",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Atatürk Dönemi’nde devletçiliği savunmak amacıyla çıkarılan Yakup Kadri Karaosmanoğlu’nun sahibi olduğu dergi aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Çığır",
+            "B": "Yeni Adam",
+            "C": "Fikir Hareketleri",
+            "D": "Kooperatif",
+            "E": "Kadro"
+        },
+        "dogru_cevap": "E",
+        "aciklama": "1932-1934 yılları arasında yayımlanan Kadro dergisi, Yakup Kadri ve arkadaşları tarafından çıkarılmış, devletçilik ve Türk devriminin teorik altyapısını oluşturmayı hedeflemiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Çağdaş Türk ve Dünya Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "II. Dünya Savaşı yıllarında Türkiye’de başbakanlık yapmış olan kişiler, aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+        "secenekler": {
+            "A": "Refik Saydam - Şükrü Saraçoğlu",
+            "B": "Recep Peker - Kazım Özalp",
+            "C": "Celal Bayar - Rauf Orbay",
+            "D": "Adnan Menderes - Naim Talu",
+            "E": "Hasan Saka - Şemsettin Günaltay"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "II. Dünya Savaşı yılları olan 1939-1945 sürecinde Türkiye'de başbakanlık görevinde Refik Saydam ve Şükrü Saraçoğlu bulunmuştur."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Çağdaş Türk ve Dünya Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Aşağıdakilerden hangisi, İsmet İnönü’nün Cumhurbaşkanlığı döneminde çıkarılmış olan kanunlardan biri değildir?",
+        "secenekler": {
+            "A": "Millî Korunma Kanunu",
+            "B": "Varlık Vergisi Kanunu",
+            "C": "Toprak Mahsulleri Vergisi Kanunu",
+            "D": "Men-i Müskirat Kanunu",
+            "E": "Çiftçiyi Topraklandırma Kanunu"
+        },
+        "dogru_cevap": "D",
+        "aciklama": "Men-i Müskirat Kanunu (İçki Yasağı Kanunu) 1920 yılında I. TBMM döneminde çıkarılmış olup İsmet İnönü'nün Cumhurbaşkanlığı (1938-1950) dönemine ait değildir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Çağdaş Türk ve Dünya Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "1890 Türkistan doğumlu olup Basmacı Hareketi içerisinde yer alan ve 1939’da İstanbul Üniversitesi’nde Umumi Türk Tarihi kürsüsünü kuran ordinaryüs unvanlı Türk tarihçisi aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "M. Fuad Köprülü",
+            "B": "Yusuf Akçura",
+            "C": "A. Zeki Velidi Togan",
+            "D": "Osman Turan",
+            "E": "Ömer Lütfi Barkan"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Basmacı Hareketi'ne katılan ve daha sonra Türkiye'ye gelerek İstanbul Üniversitesi'nde Umumi Türk Tarihi kürsüsünü kuran ünlü tarihçi Ahmet Zeki Velidi Togan'dır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Çağdaş Türk ve Dünya Tarihi",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Sosyalist bir sistemle yönetilen, birleşik ve laik bir Arap toplumu oluşturmayı amaçlayan siyasal hareket aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Müslüman Kardeşler",
+            "B": "Arap Baharı",
+            "C": "Vahhabilik",
+            "D": "Turuncu Devrim",
+            "E": "Baas"
+        },
+        "dogru_cevap": "E",
+        "aciklama": "Baas Partisi, seküler Arap milliyetçiliği ile sosyalizmi birleştiren bir siyasi harekettir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "XVII, XVIII ve XIX. Yüzyılda Osmanlı Devleti ve Islahatlar",
+        "yil": 2013,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Dersinde “Nadiri’nin Hotin seferine ilişkin minyatürlerini” kullanan bir öğretmenin aşağıdaki dönemlerden hangisini işlediği söylenebilir?",
+        "secenekler": {
+            "A": "IV. Mehmet",
+            "B": "IV. Murat",
+            "C": "II. Osman",
+            "D": "III. Ahmet",
+            "E": "II. Mehmet"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Hotin Seferi, 1621 yılında Osmanlı Padişahı II. Osman (Genç Osman) döneminde gerçekleşmiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Matbaanın Osmanlı Devleti’nde kullanılmasından önce kitaplar elle yazılarak çoğaltılırdı.\n\nAşağıdakilerden hangisi bu işlemi yapanlara verilen addır?",
+        "secenekler": {
+            "A": "Müstensih",
+            "B": "Müverrih",
+            "C": "Müellif",
+            "D": "Münakkaş",
+            "E": "Müneccim"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Matbaanın yaygınlaşmasından önce el yazması el yazması eserleri çoğaltan kişilere müstensih denir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Aşağıdakilerin hangisinde ilk Türk devletlerinde aşağıdan yukarıya toplum yapısı doğru sıralama ile verilmiştir?",
+        "secenekler": {
+            "A": "Oguş - Urug - Boy - Budun",
+            "B": "Urug - Oguş - Boy - Budun",
+            "C": "Urug - Budun - Oguş - Boy",
+            "D": "Boy - Oguş - Urug - Budun",
+            "E": "Budun - Urug - Oguş - Boy"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "İlk Türk devletlerinde sosyal yapı en küçük birim olan aileden (oguş) başlayarak aileler birliği (urug), boy (bod), millet (budun) ve devlet (il) şeklinde sıralanır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Uygurların kurucu hükümdarı Kutlug Bilge Kül Kağan, Çin’in tarihî kayıtlarına göre 745 yılında Basmilleri itaat altına alarak büyük kağan olmuştur.\n\n747 yılında Kutlug Bilge Kül Kağan’ın ölümü üzerine, aşağıdakilerden hangisi Uygur kağanı olmuştur?",
+        "secenekler": {
+            "A": "Moyen-Çor",
+            "B": "Alp Bilge Kağan",
+            "C": "Bögü Kağan",
+            "D": "Baga Tarkan",
+            "E": "Külük Bilge Kağan"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Kutlug Bilge Kül Kağan'ın 747 yılında ölümüyle yerine oğlu Moyen-Çor (Bayan Çor) Uygur kağanı olmuştur."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "557 yılında I. Göktürk hakanlarından İstemi Han’ın Sasani İmparatoru Anişirvan’la iş birliği yaparak varlığına son verdiği ve topraklarını paylaştığı Türk devleti aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Ak Hun",
+            "B": "Tabgaç",
+            "C": "Avrupa Hun",
+            "D": "Sarı Türgiş",
+            "E": "Uygur"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Göktürk Yabgusu İstemi Han, İpek Yolu denetimi için Sasaniler ile ittifak kurarak Ak Hun (Eftalit) Devletini yıkmış ve topraklarını paylaşmıştır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "İbn Fadlan’ın 926 tarihli seyahatnamesinde, Oğuzların, mezarlara, “Bunlar onun (ölünün) uşaklarıdır. Cennette ona hizmet edeceklerdir.” diyerek yerleştirdiklerini rivayet ettiği nesne aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Balbal",
+            "B": "Ülgü",
+            "C": "Kurgan",
+            "D": "Yazıt",
+            "E": "Tirkeş"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Eski Türklerde ölen savaşçının mezarının başına öldürdüğü düşman sayısı kadar dikilen küçük heykelciklere balbal denir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İslam Öncesi Türk Tarihi",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Aşağıdakilerden hangisi Doğu Avrupa’da yaşamış bir Türk topluluğu değildir?",
+        "secenekler": {
+            "A": "Avarlar",
+            "B": "Hazarlar",
+            "C": "Türgişler",
+            "D": "Bulgarlar",
+            "E": "Peçenekler"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Türgişler Doğu Avrupa'da değil, Orta Asya'da (Tanrı Dağları ve Çu-İli nehirleri çevresinde) hüküm sürmüş bir Türk topluluğudur."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İlk Türk İslam Devletleri",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "İlk Müslüman Türk devletleri ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+        "secenekler": {
+            "A": "İlk Müslüman Türk devletlerinden olan Karahanlılar, bugünkü Afganistan, İran’ın Horasan bölgesi ve Kuzey Hindistan’da kurulmuş ve Gazneliler tarafından yıkılmıştır.",
+            "B": "Türklerin büyük kitleler hâlinde Müslüman olmaları X. yüzyılın ortalarından itibaren olmuştur. İslamiyeti Türkler arasında devlet dinî olarak ilk benimseyenler, İtil Bulgarlarıdır.",
+            "C": "Karahanlı Devleti’nin İslamiyet’i kabul eden ilk hükümdarı Satuk Buğra Han’dır.",
+            "D": "Samaniler sarayında köle olan Tolun’un oğlu Ahmet; Abbasi halifelerine karşı bağımsızlığını ilan ederek Mısır’da Tolunoğulları Devleti’ni kurmuştur.",
+            "E": "Tolunoğulları Devleti’nin yıkılması üzerine Suriye ve Mısır valiliğine gönderilen Muhammet, güçlü bir donanma ve ordu oluşturarak Mısır’a hâkim olmuş ve İhşidîler Devleti’ni kurmuştur."
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Afganistan, Horasan ve Kuzey Hindistan coğrafyasında kurulan devlet Karahanlılar değil, Gaznelilerdir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "İlk Türk İslam Devletleri",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Türkler, ulularının mezarlarını kutsal kabul etmeleri anlayışlarını İslamiyet’i kabul ettikten sonra da sürdürmüşlerdir.\n\nAşağıdakilerden hangisi, Melikşah’ın bu anlayış çerçevesinde Bağdat’ta sultanlık tacını giydiğinde ziyaret ettiği türbedir?",
+        "secenekler": {
+            "A": "İmam-ı Azam Ebu Hanife",
+            "B": "Aslan Baba",
+            "C": "Hoca Ahmet Yesevi",
+            "D": "İmam Şafii",
+            "E": "Mevlana Celaleddin-i Rumi"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Büyük Selçuklu Sultanı Melikşah, Bağdat'ta sultanlık tacını giydikten sonra Hanefi mezhebinin kurucusu İmam-ı Azam Ebu Hanife'nin türbesini ziyaret etmiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Beylikler Dönemi ve Türkiye Selçuklu Devleti",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "I. Baba İshak İsyanı\nII. Yassı Çimen Savaşı\nIII. Otlukbeli Savaşı\n\nYukarıdaki olaylardan hangileri Anadolu Selçukluları Dönemi’nde gerçekleşmiştir?",
+        "secenekler": {
+            "A": "Yalnız I",
+            "B": "Yalnız II",
+            "C": "I ve II",
+            "D": "II ve III",
+            "E": "I, II ve III"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Baba İshak İsyanı ve Yassı Çimen Savaşı Anadolu Selçuklu Devleti Dönemi'nde; Otlukbeli Savaşı ise 1473'te Osmanlı Devleti Dönemi'nde gerçekleşmiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Beylikler Dönemi ve Türkiye Selçuklu Devleti",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Anadolu’da İkinci Türk Beylikleri Dönemi diye adlandırılan dönem, aşağıdakilerin hangisinden sonra başlamıştır?",
+        "secenekler": {
+            "A": "Timur’un Ankara Savaşı’nı kazanması",
+            "B": "Malazgirt Savaşı’nda Bizans İmparatorluğu ordusunun yenilmesi",
+            "C": "Anadolu Selçuklu Devleti’nin gücünü yitirmesi ve yıkılması",
+            "D": "Haçlıların Anadolu’ya seferler düzenlemesi",
+            "E": "Atabeylik kurumunun oluşması"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Kösedağ Savaşı sonrasında Anadolu Selçuklu Devleti'nin otoritesinin zayıflaması ve yıkılış sürecine girmesiyle İkinci Türk Beylikleri Dönemi başlamıştır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Tımarlı sipahilerin sancakbeyinden sonraki rütbesi aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Alaybaşı",
+            "B": "Alaybeyi",
+            "C": "Alay emini",
+            "D": "Alay çavuşu",
+            "E": "Alay imamı"
+        },
+        "dogru_cevap": "B",
+        "aciklama": "Eyaletlerde tımarlı sipahilerin bağlı bulunduğu komutan alaybeyi olup hiyerarşide sancakbeyinden sonra gelir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Devleti Kuruluş ve Yükselme Dönemleri",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Aşağıdakilerden hangisi, Osmanlı Devleti’nin kuruluş dönemindeki devlet teşkilatı ile ilgili gelişmelerden biri değildir?",
+        "secenekler": {
+            "A": "Sahn-ı Seman medreselerinin kurulması",
+            "B": "Akçenin basılması",
+            "C": "Divan-ı Hümayunun oluşturulması",
+            "D": "Tımar sisteminin uygulanması",
+            "E": "Kapıkulu Ocağı’nın kurulması"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Sahn-ı Seman medreseleri İstanbul'un fethinden sonra Fatih Sultan Mehmet Dönemi'nde (Yükselme Dönemi) açılmıştır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Osmanlı ekonomisi ile ilgili bazı metinlerde ekonominin iyi olmadığına veya hazinenin para ihtiyacı olduğuna işaret eden isim ve terimlere rastlanmaktadır.\n\nAşağıdakilerden hangisi, belirtilen olumsuz çağrışımı yapan bir isim veya terim değildir?",
+        "secenekler": {
+            "A": "Tağşiş akçesi",
+            "B": "Urgan-ı miri",
+            "C": "Kalp akçe",
+            "D": "Para tashihi",
+            "E": "Düyun-ı Umumiye"
+        },
+        "dogru_cevap": "B",
+        "aciklama": "Urgan-ı miri, devlet ihtiyaçları için tersane veya orduya üretilen halat/ip anlamında olup olumsuz bir parasal kriz terimi değildir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "XIX. yüzyılda İstanbul, İzmir, Selânik, Beyrut ve İskenderiye gibi Osmanlı Devleti’nin işlek liman şehirlerinde doğmuş ve yaşamış İtalyan, Fransız ve İngilizlerden oluşan, ortak dilleri Fransızca olup biraz Türkçe ve Arapça bilen kendilerine özgü bir kültürü olan zümre aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Martolos",
+            "B": "Maruni",
+            "C": "Gebran",
+            "D": "Levanten",
+            "E": "Levendat"
+        },
+        "dogru_cevap": "D",
+        "aciklama": "Osmanlı Devleti'nin liman kentlerinde yaşayan ve ticaretle uğraşan Batı kökenli Hristiyan zümre Levanten olarak adlandırılır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "1469’da kaleme alınan Mücerrebname’de tedavide kullanılan ilaçlar anlatılmaktadır.\n\nPratik bir tedavi el kitabı niteliğinde olan bu eserin yazarı aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Pirî Reis",
+            "B": "İbn-i Sina",
+            "C": "Sabuncuoğlu Şerafettin",
+            "D": "Ebü’l-Kasım Zehravi",
+            "E": "Takiyüddin Mehmet"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "15. yüzyılın önemli hekimlerinden Sabuncuoğlu Şerafettin, Mücerrebname ve Cerrahiyyetü'l-Haniyye adlı tıp eserlerinin yazarıdır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "XVII, XVIII ve XIX. Yüzyılda Osmanlı Devleti ve Islahatlar",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "III. Mehmet Dönemi’nde Eğri Kalesi’nin Osmanlıların eline geçmesinin ardından toplanan Haçlılar ile Osmanlılar arasında gerçekleşen savaş, aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Haçova",
+            "B": "Mohaç",
+            "C": "Preveze",
+            "D": "İnebahtı",
+            "E": "Prut"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "1596 yılında III. Mehmet Dönemi'nde Haçlı ordusuna karşı kazanılan zafer Haçova Meydan Muharebesi'dir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Osmanlı Kültür ve Medeniyeti",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Osmanlılar; Doğu Anadolu’da Akkoyunlu hükümdarı Uzun Hasan’ın, Mısır ve Suriye’de Memlûk sultanı Kayıt Bay’ın yasalarını devam ettirmişlerdir. Ancak 1540’tan sonra Akkoyunlu yasalarının yerini Osmanlı kanunnameleri almıştır. XVI. yüzyılın ikinci yarısında Macaristan vergi yasaları temelde Osmanlı yasaları olsa da bazı temel vergiler Macar krallığından kalma vergilerdi.\n\nBuna göre, Osmanlı hukuk sistemi hakkında aşağıdakilerden hangisi söylenemez?",
+        "secenekler": {
+            "A": "Yasalar üzerinde sonradan değişikliklerin yapılabildiği",
+            "B": "Osmanlıların, hukuk alanında pragmatik bir yaklaşıma sahip olduğu",
+            "C": "Osmanlıların, temel hukuk ilkelerine karşı olmayan uygulamalara izin verdiği",
+            "D": "Osmanlı Devleti’nin kendine özgü bir hukuk sisteminin olmadığı",
+            "E": "Osmanlı hukuk sisteminin, farklı kaynaklardan beslenerek geliştiği"
+        },
+        "dogru_cevap": "D",
+        "aciklama": "Fethedilen bölgelerin mevcut hukuk kurallarını kısmen korumak pragmatik bir yönetim anlayışıdır, Osmanlı'nın kendine özgü bir hukuk sisteminin olmadığını göstermez."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Milli Mücadele Dönemi (Hazırlık, Cepheler ve Diplomasi)",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Mustafa Kemal’in IX. Ordu (III. Ordu) Müfettişliği görevi ile Anadolu’ya geçmesinde aşağıdakilerden hangisinin katkısının olduğu söylenemez?",
+        "secenekler": {
+            "A": "Şeyhülislam Mustafa Sabri Efendi",
+            "B": "İçişleri Nazırı Mehmet Ali Bey",
+            "C": "Genelkurmay Başkanı Fevzi Çakmak",
+            "D": "Harbiye Nazırı Şakir Paşa",
+            "E": "Genelkurmay İkinci Başkanı Kâzım İnanç"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "Milli Mücadele karşıtı düşünceleriyle bilinen Şeyhülislam Mustafa Sabri Efendi'nin Mustafa Kemal'in müfettişlik görevine atanmasında bir katkısı olmamıştır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Milli Mücadele Dönemi (Hazırlık, Cepheler ve Diplomasi)",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Aşağıdakilerden hangisi, İstanbul Hükûmetinin Amasya Protokollerinde yer alan isteklerinden biri değildir?",
+        "secenekler": {
+            "A": "Hükûmetin atama işlemlerine karışılmaması",
+            "B": "Anadolu’da tutuklananların serbest bırakılması",
+            "C": "Asayiş ve güveni bozacak durumlardan kaçınılması",
+            "D": "Seçimlerin serbest olarak yapılması",
+            "E": "Temsilciler Kurulu merkezinin daha batıya taşınması"
+        },
+        "dogru_cevap": "E",
+        "aciklama": "Temsil Heyeti'nin merkezini Batı'ya daha yakın bir yere (Ankara) taşıma fikri Temsil Heyeti'nin kararı olup İstanbul Hükümetinin isteği değildir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Atatürk Dönemi İç ve Dış Politika & İnkılaplar",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Lozan Antlaşması’nın imzalanmasından sonra, Musul sorununu çözmek amacıyla toplanan Haliç Konferansı’nda Türkiye’yi temsil eden devlet adamı aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "Fethi Okyar",
+            "B": "İsmet İnönü",
+            "C": "Recep Peker",
+            "D": "Celal Bayar",
+            "E": "Mahmut Esat Bozkurt"
+        },
+        "dogru_cevap": "A",
+        "aciklama": "1924 yılında Musul meselesini İngiltere ile ikili görüşmelerle çözmek amacıyla toplanan Haliç Konferansı'nda Türkiye'yi Ali Fethi Okyar temsil etmiştir."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Atatürk Dönemi İç ve Dış Politika & İnkılaplar",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Türkiye’nin Milletler Cemiyetine davet edilmesine öncülük eden devletler aşağıdakilerden hangisidir?",
+        "secenekler": {
+            "A": "İspanya - Portekiz",
+            "B": "İngiltere - Fransa",
+            "C": "İspanya - Yunanistan",
+            "D": "Fransa - Portekiz",
+            "E": "İngiltere - Yunanistan"
+        },
+        "dogru_cevap": "C",
+        "aciklama": "Türkiye, İspanya'nın teklifi ve Yunanistan'ın desteği ile yapılan davet üzerine 1932'de Milletler Cemiyetine katılmıştır."
+    },
+    {
+        "ders": "Tarih",
+        "konu": "Atatürk Dönemi İç ve Dış Politika & İnkılaplar",
+        "yil": 2014,
+        "sinav": "ÖABT-TARİH",
+        "kaynak": "oabt-cikmis",
+        "soru_koku": "Serbest Cumhuriyet Partisinin kendi kendini feshetmesinde, aşağıdakilerden hangisinin etkisi olmamıştır?",
+        "secenekler": {
+            "A": "Fethi Okyar’ın Mustafa Kemal’le siyasi rakip olarak karşı karşıya gelmek istememesi",
+            "B": "İktidar partisi olan CHP’nin, bu partiye karşı sert tutumu",
+            "C": "Gerekli örgütlenmeyi yapmadan belediye seçimlerine katılması",
+            "D": "Rejim karşıtı görüşlerin partiyi ve etkinliklerini bir fırsat olarak görmesi",
+            "E": "Menemen Olayı’nın patlak vermesi"
+        },
+        "dogru_cevap": "E",
+        "aciklama": "Menemen Olayı (23 Aralık 1930), Serbest Cumhuriyet Partisi kendini feshettikten (17 Kasım 1930) sonra yaşandığı için partinin feshedilmesinde bir etkisi yoktur."
+    }
+]

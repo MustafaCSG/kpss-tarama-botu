@@ -11,7 +11,7 @@ if sys.platform == "win32":
 import fitz  # PyMuPDF
 import google.generativeai as genai
 
-API_KEY = "AIzaSyCodxevpgdU2zfK0ZRsz8HEpA7lzGEXQdQ"
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
 genai.configure(api_key=API_KEY)
 
 PDF_PATH = "974140972-Dizgi-Tarih-Cıkmış-1322-Soru-Video-Cozumlu-1_compressed.pdf"
